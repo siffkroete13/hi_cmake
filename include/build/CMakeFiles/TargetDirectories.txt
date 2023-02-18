@@ -1,3 +1,0 @@
-/mnt/c/Users/public/Documents/linux_dev/hi_cmake/include/build/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/public/Documents/linux_dev/hi_cmake/include/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/public/Documents/linux_dev/hi_cmake/include/build/CMakeFiles/applib.dir
