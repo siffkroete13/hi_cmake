@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/mnt/c/Users/Public/Documents/linux_dev/hi_cmake/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/hicmake.dir/main.cpp.o -c /mnt/c/Users/Public/Documents/linux_dev/hi_cmake/main.cpp",
+  "file": "/mnt/c/Users/Public/Documents/linux_dev/hi_cmake/main.cpp"
+},
+{
+  "directory": "/mnt/c/Users/Public/Documents/linux_dev/hi_cmake/build/my_lib",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/applib.dir/foo.cpp.o -c /mnt/c/Users/Public/Documents/linux_dev/hi_cmake/my_lib/foo.cpp",
+  "file": "/mnt/c/Users/Public/Documents/linux_dev/hi_cmake/my_lib/foo.cpp"
+}
+]

@@ -1,1 +1,1 @@
-/usr/bin/g++     CMakeFiles/hicmake.dir/main.cpp.o  -o hicmake  my_lib/libapplib.a 
+/usr/bin/g++  -g   CMakeFiles/hicmake.dir/main.cpp.o  -o hicmake  my_lib/libapplib.a 

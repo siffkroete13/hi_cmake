@@ -36,7 +36,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -72,14 +72,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "applib::@ab1e3d45447ab9a7bb2e",
-					"jsonFile" : "target-applib-a67c4d5550bc65503740.json",
+					"jsonFile" : "target-applib-Debug-a3b877f16569a703ae37.json",
 					"name" : "applib",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "hicmake::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-hicmake-107e9279add4ccca8b34.json",
+					"jsonFile" : "target-hicmake-Debug-79c3bd74bcf54169e888.json",
 					"name" : "hicmake",
 					"projectIndex" : 0
 				}
