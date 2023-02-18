@@ -1,5 +1,5 @@
 #include <iostream>
-#include "foo.h"
+#include "my_lib/foo.h"
 
 using namespace std;
 

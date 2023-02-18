@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/public/Documents/linux_dev/hi_cmake
+CMAKE_SOURCE_DIR = /mnt/c/Users/Public/Documents/linux_dev/hi_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/public/Documents/linux_dev/hi_cmake/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Public/Documents/linux_dev/hi_cmake/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/public/Documents/linux_dev/hi_cmake/build/CMakeFiles /mnt/c/Users/public/Documents/linux_dev/hi_cmake/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Public/Documents/linux_dev/hi_cmake/build/CMakeFiles /mnt/c/Users/Public/Documents/linux_dev/hi_cmake/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/public/Documents/linux_dev/hi_cmake/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Public/Documents/linux_dev/hi_cmake/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,19 @@ hicmake/fast:
 	$(MAKE) -f CMakeFiles/hicmake.dir/build.make CMakeFiles/hicmake.dir/build
 .PHONY : hicmake/fast
 
+#=============================================================================
+# Target rules for targets named applib
+
+# Build rule for target.
+applib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 applib
+.PHONY : applib
+
+# fast build rule for target.
+applib/fast:
+	$(MAKE) -f my_lib/CMakeFiles/applib.dir/build.make my_lib/CMakeFiles/applib.dir/build
+.PHONY : applib/fast
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +172,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... hicmake"
+	@echo "... applib"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

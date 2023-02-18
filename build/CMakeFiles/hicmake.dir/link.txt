@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/hicmake.dir/main.cpp.o  -o hicmake   -L/mnt/c/Users/public/Documents/linux_dev/hi_cmake/include/build  -Wl,-rpath,/mnt/c/Users/public/Documents/linux_dev/hi_cmake/include/build -lapplib 
+/usr/bin/g++     CMakeFiles/hicmake.dir/main.cpp.o  -o hicmake  my_lib/libapplib.a 
