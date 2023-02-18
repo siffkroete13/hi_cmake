@@ -6,10 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/Public/Documents/linux_dev/hi_cmake/my_lib/foo.cpp
+/mnt/c/Users/Public/Documents/linux_dev/hi_cmake/main.cpp
 iostream
 -
-foo.h
+my_lib/foo.h
 /mnt/c/Users/Public/Documents/linux_dev/hi_cmake/my_lib/foo.h
 
 /mnt/c/Users/Public/Documents/linux_dev/hi_cmake/my_lib/foo.h
