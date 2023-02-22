@@ -11,6 +11,8 @@ iostream
 -
 my_lib/foo.h
 /mnt/c/Users/Public/Documents/linux_dev/hi_cmake/my_lib/foo.h
+boost/array.hpp
+-
 
 /mnt/c/Users/Public/Documents/linux_dev/hi_cmake/my_lib/foo.h
 
